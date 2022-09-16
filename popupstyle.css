@@ -1,0 +1,36 @@
+.button{
+    transition-duration: 0.5s;
+    border-radius: 8px;
+    margin-right: 10px;
+}
+
+.button1{
+    transition-duration: 0.5s;
+    border-radius: 8px
+}
+
+.button:hover{
+    background-color: rgb(224, 24, 24);
+    color: black;
+}
+
+.button1:hover{
+    background-color: rgb(41, 154, 182);
+    color: black;
+}
+
+.input{
+    width: 3em;
+    margin-right: 5px;
+}
+
+label{
+    margin-right: 5px;
+}
+
+div{
+    display: flex;
+    justify-content: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}

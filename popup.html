@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="popupstyle.css">
+    </head>
+
+    <body>
+        <h2 style="text-align:center">Data Cleaner</h2>
+        
+        <div>
+            <button id="allHistory" class="button">Clear All History</button>
+            <label for="histRange"># of Days:</label>
+            <input class=input id="histRange" type="number" name="histRange" value="0">
+            <input class="button1" id="selectHist" type="submit" value="Clear Select History">
+        </div>
+
+        <div>
+            <button id="allDown" class="button">Clear All Downloads</button>
+            <label for="downRange"># of Days:</label>
+            <input class=input id="downRange" type="number" name="downRange" value="0">
+            <input class="button1" id="selectDown" type="submit" value="Clear Select Downloads">
+        </div>
+
+        <div>
+        <button id="allCookies" class="button">Clear All Cookies</button>
+        <button id="clrCache" class="button">Clear Cache</button>
+        <button id="clrPass" class="button">Clear Passwords</button>
+        </div>
+
+        <script src="background.js"></script>
+    </body>
+</html>

@@ -1,0 +1,13 @@
+{
+    "name": "Data Cleaner",
+    "description": "Allows ease of access to clear browsing history, cookies, etc.",
+    "version": "1.0.1",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "background.js"
+    },
+    "permissions": ["history", "browsingData"],
+    "action":{
+        "default_popup": "popup.html"
+    }
+}
